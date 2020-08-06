@@ -12,4 +12,4 @@
  
  5) mybatis 설치
 
-root-context.xml 37번째 줄 오류: 4번째 줄에 xmlns:context="http://www.springframework.org/schema/context" 작성하여 
+root-context.xml 37번째 줄 오류: 4번째 줄에 xmlns:context="http://www.springframework.org/schema/context" 작성하여 해결 
