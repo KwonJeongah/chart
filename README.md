@@ -12,4 +12,6 @@
  
  5) mybatis 설치
 
-root-context.xml 37번째 줄 오류: 4번째 줄에 xmlns:context="http://www.springframework.org/schema/context" 작성하여 해결 
+root-context.xml 37번째 줄 오류(The prefix "context" for element "context:component-scan" is not bound.)
+
+: 4번째 줄에 xmlns:context="http://www.springframework.org/schema/context" 작성하여 해결 
