@@ -14,9 +14,11 @@
 
 - root-context.xml 37번째 줄 오류(The prefix "context" for element "context:component-scan" is not bound.)
 
-: 4번째 줄에 xmlns:context="http://www.springframework.org/schema/context" 작성하여 해결 
+: <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 https://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	 http://www.springframework.org/schema/context
+	 http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-
-- 클래스 [org.springframework.web.context.ContextLoaderListener]의 인스턴스인 리스너에게 contextDestroyed 이벤트를 전송하는 중 예외 발생
-
-https://docu94.tistory.com/119
