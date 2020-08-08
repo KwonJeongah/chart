@@ -6,11 +6,11 @@
  
  2) Visual Studio Code 설치 (O)
  
- 3) jquery, plotly 다운로드
+ 3) jquery, plotly 다운로드 (O)
  
  4) JDK/Tomcat/mybatis Eclipse 설치 (O)
  
- 5) mybatis 설치
+ 5) mybatis 설치 (O)
 
 - root-context.xml 37번째 줄 오류(The prefix "context" for element "context:component-scan" is not bound.)
 
