@@ -24,5 +24,18 @@ Comento SW Dev
  * mybatis-config.xml, logback.xml, log4jdbc.log4j2.properties, test.xml 작성    
  * dao, service, settingweb, vo 패키지 작성    
  * 데이터 조회
+ 
+     
+ 2주차: 차트 테스트 및 API 인터페이스 가이드 작성
+ ---------------------------------------------
+     
+##### 1. Dynamic Web Project 생성: d3test 
+    
+##### 2. html 파일 생성: chart_ex.html
+
+##### 3. tsv 파일 생성: data.tsv      
+
+##### 4. Tomcat 서버 구성: localhost:8080/d3test 로 접속     
+##### 5. API 인터페이스 가이드 작성
    
 
