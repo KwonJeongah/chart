@@ -7,7 +7,6 @@ Comento SW Dev
  ##### 1. Github 계정 생성 
  
 #####  2. 개발 환경구축
- 
  * Spring 
       + jdk 1.8, eclipse, Spring Tools 3, Tomcat 9 설치
       + pom.xml 스프링 버전 및 JDK 버전 변경, 서버 세팅
@@ -43,23 +42,23 @@ Comento SW Dev
     
 ##### 1. Spring: RestController을 이용한 데이터 처리(jakson)
         
-        * json 사용 위해 Jackson library 추가
-            + pom.xml에 jackson 관련 library 추가 후 저장    
-        * restController를 구현하기 위한 restController.java파일 작성
-            + localhost:8080/settingweb/restex 로 확인    
-            + List<json> 으로 movieList 값 가져옴
+ * json 사용 위해 Jackson library 추가
+    + pom.xml에 jackson 관련 library 추가 후 저장    
+ * restController를 구현하기 위한 restController.java파일 작성
+    + localhost:8080/settingweb/restex 로 확인    
+    + List<json> 으로 movieList 값 가져옴
         
 ##### 2. DataBinding을 위한 화면 구조 변경, 자원 작성    
-        * home.jsp    
-            + id "load_movieList" 버튼 추가    
-            + "common_resource.jsp", "home.js", "home.css" 가져올 수 있도록 <head> 태그 안에 추가    
-        * common_resource.jsp, home.js, home.css, jquery-1.12.4.min.js 파일 추가    
-            + home.css: 웹페이지 디자인    
-            + home.js: 화면에서 동적으롤 이용    
-            + jquery-1.12.4.min.js: FrontEnd 개발을 쉽게 하기위한 library    
-            + common_resource.jsp: jquery-1.12.4.min.js 불러오는 파일. 공통 자원을 파일로 만들어 개발을 좀 더 빠르게 진행, 유지보수 가독성 증진    
-        * servlet-context.xml 수정
-            + js파일은 js폴더 아래에, css 파일은 css 폴더 아래에 있음을 명시
+ * home.jsp    
+     + id "load_movieList" 버튼 추가    
+     + "common_resource.jsp", "home.js", "home.css" 가져올 수 있도록 <head> 태그 안에 추가    
+ * common_resource.jsp, home.js, home.css, jquery-1.12.4.min.js 파일 추가    
+     + home.css: 웹페이지 디자인    
+     + home.js: 화면에서 동적으롤 이용    
+     + jquery-1.12.4.min.js: FrontEnd 개발을 쉽게 하기위한 library    
+     + common_resource.jsp: jquery-1.12.4.min.js 불러오는 파일. 공통 자원을 파일로 만들어 개발을 좀 더 빠르게 진행, 유지보수 가독성 증진    
+ * servlet-context.xml 수정
+     + js파일은 js폴더 아래에, css 파일은 css 폴더 아래에 있음을 명시
             
    
 
