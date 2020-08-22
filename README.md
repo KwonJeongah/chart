@@ -41,7 +41,7 @@ Comento SW Dev
 3주차: Spring: RestController, DataBinding (20.08.19 ~ 20.08.24)
 --------------------------------------------------
     
-    ##### 1. Spring: RestController을 이용한 데이터 처리(jakson)
+##### 1. Spring: RestController을 이용한 데이터 처리(jakson)
         
         * json 사용 위해 Jackson library 추가
             + pom.xml에 jackson 관련 library 추가 후 저장    
@@ -49,7 +49,7 @@ Comento SW Dev
             + localhost:8080/settingweb/restex 로 확인    
             + List<json> 으로 movieList 값 가져옴
         
-    ##### 2. DataBinding을 위한 화면 구조 변경, 자원 작성    
+##### 2. DataBinding을 위한 화면 구조 변경, 자원 작성    
         * home.jsp    
             + id "load_movieList" 버튼 추가    
             + "common_resource.jsp", "home.js", "home.css" 가져올 수 있도록 <head> 태그 안에 추가    
