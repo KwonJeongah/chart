@@ -1,7 +1,7 @@
 Comento SW Dev
 ==============
 
-1주차: 개발환경 구성
+1주차: 개발환경 구성 (20.08.06 ~ 20.08.10)
 -------------------
  
  ##### 1. Github 계정 생성 
@@ -26,7 +26,7 @@ Comento SW Dev
  * 데이터 조회
  
      
- 2주차: 차트 테스트 및 API 인터페이스 가이드 작성
+ 2주차: 차트 테스트 및 API 인터페이스 가이드 작성 (20.08.11 ~ 20.08.17)
  ---------------------------------------------
      
 ##### 1. Dynamic Web Project 생성: d3test 
@@ -37,5 +37,29 @@ Comento SW Dev
 
 ##### 4. Tomcat 서버 구성: localhost:8080/d3test 로 접속     
 ##### 5. API 인터페이스 가이드 작성
+   
+3주차: Spring: RestController, DataBinding (20.08.19 ~ 20.08.24)
+--------------------------------------------------
+    
+    ##### 1. Spring: RestController을 이용한 데이터 처리(jakson)
+        
+        * json 사용 위해 Jackson library 추가
+            + pom.xml에 jackson 관련 library 추가 후 저장    
+        * restController를 구현하기 위한 restController.java파일 작성
+            + localhost:8080/settingweb/restex 로 확인    
+            + List<json> 으로 movieList 값 가져옴
+        
+    ##### 2. DataBinding을 위한 화면 구조 변경, 자원 작성    
+        * home.jsp    
+            + id "load_movieList" 버튼 추가    
+            + "common_resource.jsp", "home.js", "home.css" 가져올 수 있도록 <head> 태그 안에 추가    
+        * common_resource.jsp, home.js, home.css, jquery-1.12.4.min.js 파일 추가    
+            + home.css: 웹페이지 디자인    
+            + home.js: 화면에서 동적으롤 이용    
+            + jquery-1.12.4.min.js: FrontEnd 개발을 쉽게 하기위한 library    
+            + common_resource.jsp: jquery-1.12.4.min.js 불러오는 파일. 공통 자원을 파일로 만들어 개발을 좀 더 빠르게 진행, 유지보수 가독성 증진    
+        * servlet-context.xml 수정
+            + js파일은 js폴더 아래에, css 파일은 css 폴더 아래에 있음을 명시
+            
    
 
