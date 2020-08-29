@@ -1,7 +1,7 @@
 package com.jeongah.vo;
 
 public class QualityVO {
-	int quality;
+	private int quality;
 
 	public int getQuality() {
 		return quality;
@@ -10,4 +10,6 @@ public class QualityVO {
 	public void setQuality(int quality) {
 		this.quality = quality;
 	}
+	
+	
 }

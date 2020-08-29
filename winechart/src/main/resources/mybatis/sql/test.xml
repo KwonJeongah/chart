@@ -13,11 +13,19 @@
         </select>
         
         이렇게 해야 한다.
-    -->
-    
-    <select id="selectWine" resultType="wineVO">
-        SELECT quality, fixed_acidity, total_sulfur_dioxide, pH FROM product_quality
+   -->
+   
+    <select id="selectQuality" resultType="QualityVO">
+        SELECT quality FROM product_quality
     </select>
     
-    <select id=
+    <select id = "selectFaPh" resultType="FaPhVO">
+    	SELECT fixed_acidity, pH FROM product_quality
+    </select>
+    
+    <select id = "selectTsdQuality" resultType = "TsdQualityVO">
+    	SELECT total_surfur_dioxide, quality FROM product_quality
+    </select>
+   
+   
 </mapper>

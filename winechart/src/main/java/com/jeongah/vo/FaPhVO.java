@@ -1,8 +1,8 @@
 package com.jeongah.vo;
 
 public class FaPhVO {
-	float fixed_acidity;
-	float pH;
+	private float fixed_acidity;
+	private float ph;
 	
 	public float getFixed_acidity() {
 		return fixed_acidity;
@@ -10,10 +10,12 @@ public class FaPhVO {
 	public void setFixed_acidity(float fixed_acidity) {
 		this.fixed_acidity = fixed_acidity;
 	}
-	public float getpH() {
-		return pH;
+	public float getPh() {
+		return ph;
 	}
-	public void setpH(float pH) {
-		this.pH = pH;
+	public void setPh(float ph) {
+		this.ph = ph;
 	}
+	
+	
 }
