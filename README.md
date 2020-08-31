@@ -84,7 +84,15 @@ Comento SW Dev
 
 ##### 4. 차트 구현    
 
-* Quality 막대 그래프    
-* Total Surfur Dioxide와 Quality 히스토그램    
+* Quality 막대 그래프        
+![막대그래프](https://user-images.githubusercontent.com/37493709/91712692-3cd58e00-ebc3-11ea-8de0-d402a3887393.PNG)
+
+* Total Surfur Dioxide와 Quality 히스토그램  
+
+![histo](https://user-images.githubusercontent.com/37493709/91712756-5e367a00-ebc3-11ea-8615-178c937e7ad7.PNG)
+
 * Fixed Acidity와 pH Box Plot   
+
+![box](https://user-images.githubusercontent.com/37493709/91712771-67bfe200-ebc3-11ea-93c2-a45d67f00bcf.PNG)
+
 
