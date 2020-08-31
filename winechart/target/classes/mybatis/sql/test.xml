@@ -16,7 +16,9 @@
    -->
    
     <select id="selectQuality" resultType="QualityVO">
-        SELECT quality FROM product_quality
+        SELECT quality, COUNT(quality) AS count FROM product_quality
+    	GROUP BY quality
+    	ORDER BY quality ASC;
     </select>
     
     <select id = "selectFaPh" resultType="FaPhVO">
