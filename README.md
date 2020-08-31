@@ -60,5 +60,31 @@ Comento SW Dev
  * servlet-context.xml 수정
      + js파일은 js폴더 아래에, css 파일은 css 폴더 아래에 있음을 명시
             
-   
+4주차: Visualize Wine Quality Data (20.08.26 ~ 20.08.31)
+----------------------------------------------------
+
+##### 1. 구현할 차트 선정    
+
+* Quality 막대 그래프    
+* Total Surfur Dioxide와 Quality 히스토그램    
+* Fixed Acidity와 pH Box Plot       
+
+##### 2. Database 설정    
+
+* wine_quality 스키마, product_quality 테이블 생성 후 wine_quality 데이터 삽입    
+* mybatis > sql > test.xml과 mybatis > mybatis-config.xml 작성
+
+
+##### 3. 데이터 조회/처리 위한 클래스 작성
+
+* DAO: WineDAO, WineDAOImpl 작성    
+* Service: WineService, WineServiceImple 작성    
+* VO: FaPhVO, QualityVO, TsdQualityVO 작성    
+* RestController: url 작성
+
+##### 4. 차트 구현    
+
+* Quality 막대 그래프    
+* Total Surfur Dioxide와 Quality 히스토그램    
+* Fixed Acidity와 pH Box Plot   
 
